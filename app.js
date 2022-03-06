@@ -34,11 +34,11 @@ members: [
 
 const jsonData = JSON.stringify(data);
 
-const url = "https://us14.api.mailchimp.com/3.0/lists/ae4d05a00a";
+const url = "https://us14.api.mailchimp.com/3.0/lists/\";
 
 const options = {
   method:"POST",
-  auth: "aayush:2b2c4215f66324734fadcff485d3752f-us14"
+  auth: "//"
 }
 
  const request = https.request(url,options,function(response){
